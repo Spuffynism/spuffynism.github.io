@@ -1,0 +1,85 @@
+<div id="search" class="CoveoSearchInterface" data-enable-history="true">
+    <div class="CoveoFolding"></div>
+    <div class="CoveoAnalytics"></div>
+    <div class="coveo-tab-section">
+        <a class="CoveoTab" data-id="All" data-caption="All Content"></a>
+    </div>
+    <div class="coveo-search-section">
+        <div class="CoveoSearchbox" data-enable-omnibox="true" data-placeholder="Search for pokemons!" data-number-of-suggestions="5" data-partial-match-keywords="" data-enable-partial-match="true" data-inline="true" data-enable-search-as-you-type="true" data-search-as-you-type-delay=""></div>
+    </div>
+    <div class="coveo-main-section">
+        <div class="coveo-facet-column">
+            <div class="CoveoFacet" data-title="Pokemon Generation" data-field="@pokemon_generation" data-number-of-values=""></div>
+            <div class="CoveoFacet" data-title="Pokemon Type" data-field="@pokemon_type" data-is-multi-value-field="true" data-number-of-values="" data-enable-toggling-operator="true" data-enable-settings="false"></div>
+            <div class="CoveoFacetSlider" data-title="Pokemon number" data-field="@pokemon_national_no" data-steps="50" data-range-slider="true" data-start="0" data-end="900" data-rounded=""></div>
+            <div class="CoveoFacetSlider" data-title="Pokemon weight" data-field="@pokemon_metric_weight" data-steps="" data-range-slider="true"></div>
+        </div>
+        <div class="coveo-results-column">
+            <div class="CoveoShareQuery"></div>
+            <div class="CoveoPreferencesPanel">
+                <div class="CoveoResultsPreferences"></div>
+                <div class="CoveoResultsFiltersPreferences"></div>
+            </div>
+            <div class="CoveoTriggers"></div>
+            <div class="CoveoBreadcrumb"></div>
+            <div class="CoveoDidYouMean"></div>
+            <div class="coveo-results-header">
+                <div class="coveo-summary-section">
+                    <span class="CoveoQuerySummary"><div class="coveo-show-if-no-results"></div></span>
+                    <span class="CoveoQueryDuration"></span>
+                </div>
+                <div class="coveo-result-layout-section">
+                    <span class="CoveoResultLayout"></span>
+                </div>
+                <div class="coveo-sort-section">
+                    <span class="CoveoSort" data-sort-criteria="relevancy" data-caption="Relevance"></span>
+                    <span class="CoveoSort" data-sort-criteria="date descending,date ascending" data-caption="Date"></span>
+                </div>
+            </div>
+            <div class="CoveoHiddenQuery"></div>
+            <div class="CoveoErrorReport" data-pop-up="false"></div>
+            <div class="CoveoResultList" data-layout="list" data-wait-animation="fade" data-auto-select-fields-to-include="true">
+                <script id="Default" class="result-template" type="text/html" data-layout="list">
+                    <div class="coveo-result-frame">
+                        <div class="coveo-result-cell" style="vertical-align:top;text-align:center;width:32px;">
+                            <div class="CoveoQuickview"></div>
+                        </div>
+                        <div class="coveo-result-cell" style="vertical-align: top;padding-left: 16px;">
+                            <div class="coveo-result-row" style="margin-top:0;">
+                                <div class="coveo-result-cell" style="vertical-align:top;font-size:16px;" role="heading" aria-level="2">
+                                    <div class="CoveoImageFieldValue" data-field="@pokemon_image" data-width="40" data-height="40"></div>
+                                    <a class="CoveoResultLink"></a>
+                                </div>
+                                <div class="coveo-result-cell" style="width:120px;text-align:right;font-size:12px">
+                                    <div class="coveo-result-row">
+                                        <span class="CoveoFieldValue" data-field="@date" data-helper="date"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coveo-result-row" style="margin-top:10px;">
+                                <div class="coveo-result-cell">
+                                    <span class="CoveoExcerpt"></span>
+                                </div>
+                            </div>
+                            <div class="coveo-result-row" style="margin-top:10px;">
+                            </div>
+                            <div class="coveo-result-row" style="margin-top:10px;">
+                                <div class="coveo-result-cell">
+                                    <div class="CoveoPrintableUri"></div>
+                                </div>
+                            </div>
+                            <div class="coveo-result-row">
+                                <div class="coveo-result-cell">
+                                    <div class="CoveoMissingTerms"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div class="CoveoPager"></div>
+            <div class="CoveoLogo"></div>
+            <div class="CoveoResultsPerPage"></div>
+        </div>
+    </div>
+</div>
