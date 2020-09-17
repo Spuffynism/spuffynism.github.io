@@ -1,4 +1,24 @@
-<div id="search" class="CoveoSearchInterface" data-enable-history="true">
+<html lang="en-US">
+<head>
+    <title>Search page</title>
+    <script src="https://static.cloud.coveo.com/searchui/v2.9659/js/CoveoJsSearch.min.js"></script>
+    <script src="https://static.cloud.coveo.com/searchui/v2.9659/js/templates/templatesNew.js"></script>
+    <link rel="stylesheet" href="https://static.cloud.coveo.com/searchui/v2.9659/css/CoveoFullSearchNewDesign.css" />
+</head>
+<body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        Coveo.SearchEndpoint.configureCloudV2Endpoint(
+            "ndlabarrepokemonkztbvg6h",
+            "xxd8fae72a-fc9d-4ccf-acc5-89d85e6ed901",
+            "https://platformqa.cloud.coveo.com/rest/search",
+        );
+        //Coveo.SearchEndpoint.configureSampleEndpointV2();
+
+        Coveo.init(document.body);
+    });
+</script>
+<div id="search" data-enable-history="true">
     <div class="CoveoFolding"></div>
     <div class="CoveoAnalytics"></div>
     <div class="coveo-tab-section">
@@ -83,3 +103,5 @@
         </div>
     </div>
 </div>
+</body>
+</html>
